@@ -1,0 +1,42 @@
+# $Id: PKGBUILD 295962 2017-05-13 12:58:56Z arojas $
+# Maintainer: Antonio Rojas <arojas@archlinux.org>
+
+pkgname=xdg-desktop-portal-kde
+pkgver=5.12.3
+pkgrel=1
+pkgdesc='A backend implementation for xdg-desktop-portal using Qt/KF5'
+arch=(x86_64)
+url='https://www.kde.org/workspaces/plasmadesktop/'
+license=(LGPL)
+depends=(ki18n knotifications)
+makedepends=(extra-cmake-modules python)
+provides=(xdg-desktop-portal-impl)
+option=(debug !strip)
+groups=(plasma)
+source=("https://download.kde.org/stable/plasma/$pkgver/$pkgname-$pkgver.tar.xz"{,.sig})
+sha256sums=('69bed62e1c3b18e8ff2b1cce6bbfccb803b6abb17466e9635642efcfd8449e6b'
+            'SKIP')
+validpgpkeys=('2D1D5B0588357787DE9EE225EC94D18F7F05997E'  # Jonathan Riddell
+              '0AAC775BB6437A8D9AF7A3ACFE0784117FBCE11D'  # Bhushan Shah <bshah@kde.org>
+              'D07BD8662C56CB291B316EB2F5675605C74E02CF'  # David Edmundson
+              '1FA881591C26B276D7A5518EEAAF29B42A678C20') # Marco Martin <notmart@gmail.com>
+
+prepare() {
+  mkdir -p build
+}
+
+build() {
+  cd build
+  cmake ../$pkgname-$pkgver \
+    -DCMAKE_INSTALL_PREFIX=/usr \
+    -DCMAKE_INSTALL_LIBDIR=lib \
+    -DCMAKE_INSTALL_LIBEXECDIR=lib \
+    -DBUILD_TESTING=OFF \
+    -DCMAKE_BUILD_TYPE=Debug
+  make
+}
+
+package() {
+  cd build
+  make DESTDIR="$pkgdir" install
+}

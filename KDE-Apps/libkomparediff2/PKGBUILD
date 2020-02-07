@@ -4,7 +4,7 @@
 # Contributor: Andrea Scarpino <andrea@archlinux.org>
 
 pkgname=libkomparediff2
-pkgver=18.12.1
+pkgver=19.12.2
 pkgrel=1
 pkgdesc="Library to compare files and strings"
 url='https://www.kde.org/applications/development/kompare/'

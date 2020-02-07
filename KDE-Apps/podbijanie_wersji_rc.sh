@@ -1,2 +1,2 @@
 #!/bin/bash
-find -name PKGBUILD -exec sed -i 's/pkgver=17.12.3/pkgver=18.12.1/g' {} \;
+find -name PKGBUILD -exec sed -i 's/pkgver=18.12.1/pkgver=19.12.2/g' {} \;

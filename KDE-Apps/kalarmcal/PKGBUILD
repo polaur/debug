@@ -1,7 +1,7 @@
 # Maintainer: Antonio Rojas <arojas@archlinux.org>
 
 pkgname=kalarmcal
-pkgver=18.12.1
+pkgver=19.12.2
 pkgrel=1
 pkgdesc="The KAlarm client library"
 arch=(x86_64)

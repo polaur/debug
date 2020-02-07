@@ -1,7 +1,7 @@
 # Maintainer: Antonio Rojas <arojas@archlinux.org>
 
 pkgname=ksmtp
-pkgver=18.12.1
+pkgver=19.12.2
 pkgrel=1
 pkgdesc="Job-based library to send email through an SMTP server"
 arch=(x86_64)

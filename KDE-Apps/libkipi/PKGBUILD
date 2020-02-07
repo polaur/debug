@@ -4,7 +4,7 @@
 # Contributor: Andrea Scarpino <andrea@archlinux.org>
 
 pkgname=libkipi
-pkgver=18.12.1
+pkgver=19.12.2
 pkgrel=1
 pkgdesc="An interface to use kipi-plugins from a KDE application"
 url="https://www.kde.org/applications/graphics/"

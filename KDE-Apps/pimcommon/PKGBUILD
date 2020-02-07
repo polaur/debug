@@ -1,7 +1,7 @@
 # Maintainer: Antonio Rojas <arojas@archlinux.org>
 
 pkgname=pimcommon
-pkgver=18.12.1
+pkgver=19.12.2
 pkgrel=1
 pkgdesc="Common libraries for KDE PIM"
 arch=(x86_64)

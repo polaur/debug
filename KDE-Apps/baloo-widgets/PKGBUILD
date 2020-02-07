@@ -3,7 +3,7 @@
 # Contributor: Andrea Scarpino <andrea@archlinux.org>
 
 pkgname=baloo-widgets
-pkgver=18.12.1
+pkgver=19.12.2
 pkgrel=1
 pkgdesc="Widgets for Baloo"
 arch=(x86_64)

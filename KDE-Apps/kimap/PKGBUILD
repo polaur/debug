@@ -1,7 +1,7 @@
 # Maintainer: Antonio Rojas <arojas@archlinux.org>
 
 pkgname=kimap
-pkgver=18.12.1
+pkgver=19.12.2
 pkgrel=1
 pkgdesc="Job-based API for interacting with IMAP servers"
 arch=(x86_64)

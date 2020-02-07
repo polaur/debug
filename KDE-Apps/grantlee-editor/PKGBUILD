@@ -2,7 +2,7 @@
 # Maintainer: Felix Yan <felixonmars@archlinux.org>
 
 pkgname=grantlee-editor
-pkgver=18.12.1
+pkgver=19.12.2
 pkgrel=1
 pkgdesc="Editor for Grantlee themes"
 arch=(x86_64)

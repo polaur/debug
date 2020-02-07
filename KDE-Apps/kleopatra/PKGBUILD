@@ -2,7 +2,7 @@
 # Maintainer: Antonio Rojas <arojas@archlinux.org>
 
 pkgname=kleopatra
-pkgver=18.12.1
+pkgver=19.12.2
 pkgrel=1
 pkgdesc='Certificate Manager and Unified Crypto GUI'
 arch=(x86_64)

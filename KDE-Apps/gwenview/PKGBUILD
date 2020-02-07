@@ -4,7 +4,7 @@
 # Contributor: Andrea Scarpino <andrea@archlinux.org>
 
 pkgname=gwenview
-pkgver=18.12.1
+pkgver=19.12.2
 pkgrel=1
 pkgdesc="A fast and easy to use image viewer"
 url='https://kde.org/applications/graphics/gwenview/'

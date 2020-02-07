@@ -2,7 +2,7 @@
 # Maintainer: Felix Yan <felixonmars@archlinux.org>
 
 pkgname=akonadiconsole
-pkgver=18.12.1
+pkgver=19.12.2
 pkgrel=1
 pkgdesc="Akonadi management and debugging console"
 arch=(x86_64)

@@ -1,7 +1,7 @@
 # Maintainer: Antonio Rojas <arojas@archlinux.org>
 
 pkgname=grantleetheme
-pkgver=18.12.1
+pkgver=19.12.2
 pkgrel=1
 pkgdesc="Library for Grantlee theming support"
 arch=(x86_64)

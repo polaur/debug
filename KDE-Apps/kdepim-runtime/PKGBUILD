@@ -5,7 +5,7 @@
 # Contributor: Pierre Schmitz <pierre@archlinux.de>
 
 pkgname=kdepim-runtime
-pkgver=18.12.1
+pkgver=19.12.2
 pkgrel=1
 pkgdesc='Extends the functionality of kdepim'
 arch=(x86_64)

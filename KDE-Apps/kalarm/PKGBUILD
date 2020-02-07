@@ -2,7 +2,7 @@
 # Maintainer: Felix Yan <felixonmars@archlinux.org>
 
 pkgname=kalarm
-pkgver=18.12.1
+pkgver=19.12.2
 pkgrel=1
 pkgdesc="Personal alarm scheduler"
 arch=(x86_64)

@@ -5,7 +5,7 @@
 # Contributor: Pierre Schmitz <pierre@archlinux.de>
 
 pkgname=dolphin
-pkgver=18.12.1
+pkgver=19.12.2
 pkgrel=1
 pkgdesc="KDE File Manager"
 arch=(x86_64)

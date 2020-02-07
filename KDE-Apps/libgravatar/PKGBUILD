@@ -1,7 +1,7 @@
 # Maintainer: Antonio Rojas <arojas@archlinux.org>
 
 pkgname=libgravatar
-pkgver=18.12.1
+pkgver=19.12.2
 pkgrel=1
 pkgdesc="KDE PIM library providing Gravatar support"
 arch=(x86_64)

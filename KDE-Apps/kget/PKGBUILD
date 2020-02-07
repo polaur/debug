@@ -3,7 +3,7 @@
 # Contributor: Andrea Scarpino <andrea@archlinux.org>
 
 pkgname=kget
-pkgver=18.12.1
+pkgver=19.12.2
 pkgrel=1
 pkgdesc='Download Manager'
 url='https://kde.org/applications/internet/kget/'

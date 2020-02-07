@@ -1,7 +1,7 @@
 # Maintainer: Antonio Rojas <arojas@archlinux.org>
 
 pkgname=libkdepim
-pkgver=18.12.1
+pkgver=19.12.2
 pkgrel=1
 pkgdesc="Libraries for KDE PIM applications"
 arch=(x86_64)

@@ -1,7 +1,7 @@
 # Maintainer: Antonio Rojas <arojas@archlinux.org>
 
 pkgname=kdav
-pkgver=18.12.1
+pkgver=19.12.2
 pkgrel=1
 pkgdesc="A DAV protocol implemention with KJobs"
 url='https://pim.kde.org/'
